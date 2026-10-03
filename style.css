@@ -1,3 +1,41 @@
 h1 {
-    color: green;
+    color: blue;
 }
+body {
+    background-color: #ccc;
+}
+body {
+            background-color: #ccc;
+            font-family: Arial, sans-serif;
+            padding: 30px;
+        }
+
+        h1 {
+            color: blue;
+            text-align: center;
+        }
+ul { list-style: none; 
+    padding: 0;
+     display: flex; 
+     justify-content: center;
+      gap: 20px; }
+ li { background-color: white; 
+    padding: 25px;
+     width: 150px; border-radius: 10px; 
+     box-shadow: 0 4px 8px gray;
+      font-weight: bold; }
+  li:hover { transform: scale(1.05); }
+        .contact-btn {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            padding: 10px 25px;
+            background-color: rgb(100, 100, 211);
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
+
+        .contact-btn:hover {
+            background-color: rgb(93, 93, 164);
+        }
